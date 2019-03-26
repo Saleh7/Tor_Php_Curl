@@ -28,7 +28,7 @@ class Tor{
   public function __construct($Url){
     $this->Url = $Url;
     $this->TorSwitchIdentity();
-    $this->TorConnect();
+    //$this->TorConnect();
   }
 
   public function TorConnect(){
